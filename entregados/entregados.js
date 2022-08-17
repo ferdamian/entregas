@@ -45,7 +45,7 @@ function precio_final (opcion_pago, precio_compras){
 }
 
 while(salir !== "salir"){
-    opcion_de_compra = parseInt(prompt(" Ingrese el numero del producto que desea llevar ? 1- Cacao 2- Carcassone 3- Takenoko 4- Frescoo "));
+    opcion_de_compra = parseInt(prompt(" Ingrese el numero del producto que desea llevar ?  1- Cacao 2- Carcassone 3- Takenoko 4- Frescoo "));
     if(opcion_de_compra == 1){
         cant_producto_uno++;
         salir = prompt("escriba salir si no quiere agregar nada mas a su carrito");
@@ -79,4 +79,4 @@ while(opcion_de_pago !== 1 && opcion_de_pago !== 2 && opcion_de_pago !== 3 && op
     opcion_de_pago = parseInt(prompt("Ingrese el numero segun corresponda 1- efectivo descuento del 5%, 2- 3 cuotas 5% interes, 3- 6 cuotas 10% interes, 4- 12 cuotas 15% interes"))
 }
 
-console.log(precio_final(opcion_de_pago,precio_de_las_compras));
+console.log("el precio final es de: ", (precio_final(opcion_de_pago,precio_de_las_compras)));
