@@ -16,7 +16,7 @@ let opcion_de_compra;
 let opcion_de_pago;
 let precio_de_las_compras; 
 
-
+// funciones
 function precio_del_producto (precio, cantidad){
     let resultado = parseInt(precio * cantidad);
     return resultado;
