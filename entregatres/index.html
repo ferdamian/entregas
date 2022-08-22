@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega numero 3 Villalba</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="gridAreaIndex">
+    <header class="centrar cabeza">
+         <img class="banner" src="./img/banner.jpg" alt="banner">
+    </header>
+
+    <main class="contenido fondo2"> 
+        <section class="margenAgregarProducto fondo3">
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">Nombre del juego</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="" required>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Editorial</label>
+                  <input type="text" class="form-control" id="validationCustom02" value="" required>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Agregar Imagen del producto</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">URL</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                  </div>
+                </div>
+                <div class="col-md-2">
+                  <label for="validationCustom03" class="form-label">Cantidad de Stock</label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+                </div>
+                <div class="col-md-2">
+                    <label for="validationCustom03" class="form-label">Precio</label>
+                    <input type="text" class="form-control" id="validationCustom03" required>
+                  </div>
+                <div class="col-md-3">
+                  <label for="validationCustom05" class="form-label">Cantidad de Jugadores</label>
+                  <input type="text" class="form-control" id="validationCustom05" required>
+                </div>
+                <div class="col-md-3 boton">
+                  <button class="btn btn-primary" type="submit">Agregar juego de mesa</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="fondo1">
+            <div class="lista bordeTemporal2">
+                <div class="centrarImagen uno ">
+                    <img class="productSize" src="./img/takenoko.png" alt="takenoko">
+                </div>
+                <div class="dos centrarTexto"> Takenoko</div>
+                <div class="tres centrarTexto"> 13.900</div>
+                <div class="cuatro centrarTexto"> 7</div>
+                <div class="cinco centrarTexto"> Bureau de Juegos</div>
+                <div class="seis centrarTexto"> 4 jugadores</div>
+                <button type="button" class="btn btn-primary">modificar</button>
+            </div>
+
+            <div class="lista bordeTemporal2">
+                <div class="centrarImagen uno ">
+                    <img class="productSize" src="./img/cacao.png" alt="cacao">
+                </div>
+                <div class="dos centrarTexto"> Cacao</div>
+                <div class="tres centrarTexto"> 10.900</div>
+                <div class="cuatro centrarTexto"> 11</div>
+                <div class="cinco centrarTexto"> Devir</div>
+                <div class="seis centrarTexto"> 3-5 jugadores</div>
+                <button type="button" class="btn btn-primary">modificar</button>
+            </div>
+
+            <div class="lista bordeTemporal2">
+                <div class="centrarImagen uno ">
+                    <img class="productSize" src="./img/carcassone.png" alt="carcassone">
+                </div>
+                <div class="dos centrarTexto"> Carcassone</div>
+                <div class="tres centrarTexto"> 11.200</div>
+                <div class="cuatro centrarTexto"> 2</div>
+                <div class="cinco centrarTexto"> Devir</div>
+                <div class="seis centrarTexto"> 4 jugadores</div>
+                <button type="button" class="btn btn-primary">modificar</button>
+            </div>
+
+            <div class="lista bordeTemporal2">
+                <div class="centrarImagen uno ">
+                    <img class="productSize" src="./img/fresco.png" alt="fresco">
+                </div>
+                <div class="dos centrarTexto"> Fresco</div>
+                <div class="tres centrarTexto"> 17.800</div>
+                <div class="cuatro centrarTexto"> 23</div>
+                <div class="cinco centrarTexto"> Devir</div>
+                <div class="seis centrarTexto"> 4 jugadores</div>
+                <button type="button" class="btn btn-primary">modificar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="centrar pie"> desarrollado por mi</footer>
+
+
+
+ <!--Javascript bootstrap online -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+ <script src="entregatres.js"></script>
+</body>
+</html>
