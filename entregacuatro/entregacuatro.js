@@ -147,17 +147,17 @@ function quitar_juego(){
 
 
 //lo pongo en un bucle pero la idea es que se agregue ingresando datos en campos desde la web
-/*
+
 while (salir !== "salir"){
     Agregar_Juego();
     salir = prompt("Si no quiere agregar otro juego escriba salir");
 }
-*/
+
 
 
 //ver_listado_de_Mis_juegos();
 
-/* <-------BORRAR ESTO
+
 
 // MODIFICAR STOCK
 console.log("-------------------------------------------");
@@ -178,7 +178,7 @@ console.log("-------------------------------------------");
 Mis_juegos.find(quitar_juego);
 ver_listado_de_Mis_juegos();
 
-BORRAR ESTO---->*/
+
 
 
 // SIMULADOR DE COMPRA - 
@@ -203,13 +203,12 @@ function Agregar_al_carrito(){
     return true;
     
 }
-/*
+
 while (salir !== "salir"){
     Mis_juegos.find(Agregar_al_carrito);
     salir = prompt("Si no quiere agregar otro juego al carrito escriba salir");
 }
 ver_listado_del_Carrito();
-*/
 
 //                                                         ETAPA 2 - METODO DE PAGO
 
@@ -302,13 +301,12 @@ ver_listado_del_Carrito();
 
 // idealmente el usuario elige de una lista desplegable y confirma el metodo de pago, el bucle de momento es para representar esas opciones.
 
-/*
+
 while(opcion_de_pago !== 1 && opcion_de_pago !== 2 && opcion_de_pago !== 3 && opcion_de_pago !==4){
     opcion_de_pago = parseInt(prompt("Ingrese el numero segun corresponda 1- efectivo descuento del 5%, 2- 3 cuotas 5% interes, 3- 6 cuotas 10% interes, 4- 12 cuotas 15% interes"))
 }
 metodo_de_pago(opcion_de_pago);
 ver_listado_del_Carrito();
-*/
 
 //                                           FUNCIONES DE FILTRADO
 
