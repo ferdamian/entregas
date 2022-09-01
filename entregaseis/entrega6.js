@@ -31,12 +31,15 @@ let Uno = new Boardgame("uno",8,"Toptoys",2000,10);
 let Tzolkin = new Boardgame("Tzolkin",5,"Devir",18000,4);
 let tickettoride = new Boardgame("Ticket to Ride",2,"Days of Wonder",20000,5);
 let clank = new Boardgame("clank",18,"Devir",21000,4);
+let truco = new Boardgame("truco",22,"N/A,",2500,6);
 Mis_juegos.push(Takenoko);
 Mis_juegos.push(Carcassone);
 Mis_juegos.push(Uno);
 Mis_juegos.push(Tzolkin);
 Mis_juegos.push(tickettoride);
 Mis_juegos.push(clank);
+Mis_juegos.push(truco);
+
 
 
 function mostrarJuegos(){
@@ -45,7 +48,7 @@ function mostrarJuegos(){
         let div = document.createElement("div");
         //TEMPLATE
         div.innerHTML = `<p>${Mis_juegos[i].nombre}</p>
-        <img class="productSize" src="../entregados/img/cajita.png" alt="producto">
+        <img class="productSize" src="../entregaseis/img/cajita.png" alt="producto">
         <button type="button" class="btn btn-primary">Agregar al carrito</button>
                         `
         div.className = "bordeTemporal divSize"
