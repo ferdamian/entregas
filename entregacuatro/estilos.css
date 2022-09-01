@@ -1,4 +1,11 @@
-
+/* Estilos generales*/
+/*-------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Flex', sans-serif;
+    box-sizing: border-box;
+}
 .bordeTemporal{
     border: 5px solid purple;
     margin: 5px;
