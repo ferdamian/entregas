@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.33/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="fondoIngreso ">
+    <section class="indexSection GridInicio">
+        <section class="sectionOne bordeTemporal seccion1">
+            <h3>BIENVENIDO</h1>
+            <h2>Ingresar</h2>
+                <form class="forms" id="login">
+                    <label for="nombre"> Usuario</label>
+                    <input type="text" id="user">
+                    <br>
+                    <label for="contraseña"> Contraseña</label>
+                    <input type="password" id="pass">
+                    <br>
+                    <button type="submit" id="Ingresarusuario">Login</button>
+                </form> 
+        </section>
+        <br>
+        <h4> Si no estas registrado. Registrate</h4>
+        <section class="bordeTemporal sectionOne seccion2">
+            <H2>REGISTRAR</H2>
+            <form class="forms" id="register">
+                <label for="nombre"> Usuario</label>
+                <input type="text" id="userRegister">
+                <br>
+                <label for="contraseña"> Contraseña</label>
+                <input type="password" id="passRegister">
+                <br>
+                <button type="submit" id="registrar">Ingresar</button>
+            </form>
+        </section>
+        <br>
+        <section class="bordeTemporal sectionOne seccion3" id="ultimos_usuarios">
+            <div>
+                <p>Usuarios:</p>
+            </div>
+        </section>
+    </section>
+    
+
+    
+
+    
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="ingreso.js"></script>
+</body>
+</html>

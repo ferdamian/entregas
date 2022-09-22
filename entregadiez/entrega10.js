@@ -95,7 +95,25 @@ Mis_juegos.push(museum);
     for (let boton of boton_Agregar_Carrito){
         boton.addEventListener("click", agregar_carrito);
     }
-    
+    // funcion GetDATA API 
+    async function getData(){
+        try{
+            const data = await fetch('https://api.chucknorris.io/jokes/random');
+            const json = await data.json();
+            Toastify({
+                text: "Chuck Norris: "+ json.value,
+                duration: 3500,
+                position: "left",
+                gravity: "bottom",
+                style:{
+                    background:"orange"
+                }
+                }).showToast();
+        }
+        catch(e){
+            console.error(e);
+        }
+    }
     //funcion agregar carrito
     function agregar_carrito( e, Boardgame){
 
@@ -131,6 +149,8 @@ Mis_juegos.push(museum);
                         background:"green"
                     }
                     }).showToast();
+                    getData();
+                
                 // <----- ACA FUNCIONA EL LLAMADO A TODOS LOS BOTONES DE BORRAR CARRITO
                 function delete_productos(){
                     let boton_Borrar_Carrito = document.querySelectorAll(".botonBorrarCarrito");
