@@ -1,0 +1,226 @@
+/* Estilos generales*/
+/*-------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Flex', sans-serif;
+    box-sizing: border-box;
+}
+
+.bordeTemporal{
+        border: 5px solid rgb(13, 89, 204);
+        margin: 5px;
+    }
+
+.gridAreasIndex{
+    display: grid;
+    grid-template-areas: 
+    "cabeza cabeza cabeza"
+    
+    "columna cuerpo carrito"
+    "pie pie pie";
+    grid-template-rows: 3fr  16fr 1fr ;
+    grid-template-columns: 15% auto 25%;
+
+}
+.GridInicio{
+    display: grid;
+    grid-template-areas: 
+    "seccion1 seccion3"
+    "seccion2 seccion3";
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns:  75% auto;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: slategray;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: left center;
+}
+
+aside{
+    background-color: rgba(248, 248, 248, 0.712);
+}
+nav{
+    background-color: aliceblue;
+}
+footer{
+    background-color: black;
+}
+.cabeza{
+    grid-area: cabeza;
+}
+.menuNav{
+    grid-area: menuNav;
+}
+.columna{
+    grid-area: columna;
+}
+.cuerpo{
+    grid-area: cuerpo;
+}
+.pie{
+    grid-area: pie;
+}
+.carrito{
+    grid-area: carrito;
+}
+.seccion1{
+    grid-area: seccion1;
+}
+.seccion2{
+    grid-area: seccion2;
+}
+.seccion3{
+    grid-area: seccion3;
+}
+
+.sectionFlex{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.productSize{
+    width: 80%;
+}
+.productSizeCarrito{
+    width: 20%;
+}
+.divSize{
+    width: 18%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: rgba(188, 193, 197, 0.678);
+    
+}
+
+.columnFlex{
+    text-align: center;
+}
+
+p{
+    padding: 3%;
+}
+.marginButton{
+    margin: 3%;
+    padding: 1,5%;
+}
+.desarroladopormi{
+    color: rgb(13, 49, 83);
+    padding: 0;
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+}
+
+.carritoFlex{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    height: 100%;
+   
+}
+h2{
+    font-size: 90%;
+    color: aliceblue;
+}
+h5{
+    color: beige;
+}
+.carritoStyle{
+    height: 100vh;
+}
+
+.indexSection{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sectionOne{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+    padding: 2%;
+    background-color: aliceblue;
+}
+
+.forms{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 2%;
+    margin: 3%;
+}
+
+.fondoIngreso{
+    background-color: rgb(14, 39, 151);
+}
+
+.headerTienda{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.usuarioLog{
+    font-size: 120%;
+    text-align: right;
+}
+
+.usuarios{
+    font-size:15px;
+}
+.resumen{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn_comprar_style{
+    padding: 0%;
+    margin: 0%;
+}
+.monto_final{
+    padding-right: 5%;
+    margin: 0%;
+    font-size: 100%;
+}
+.img_user_size{
+    width: 30%;
+}
+.user_section{
+    width: 30%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.banner_zodiaco{
+    width: 15%;
+}
+.color-fondo{
+    background-color: black;
+}
+p{
+    color: white;
+}
+.color-usuarios{
+    color: black;
+}
